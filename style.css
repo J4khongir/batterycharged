@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6f);
+    font-family: 'Mukta', sans-serif;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    background-color: #f3f3f3b6;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.batteryBorder {
+    position: relative;
+    border: 3px solid #000;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.battery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.precent {
+    margin-top: 40px;
+}
+
+.precent,
+p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.presentBattery {
+    position: absolute;
+    width: 100%;
+    top: 4px;
+    right: 0;
+    bottom: 4px;
+    left: 0;
+    background: linear-gradient(to left, #626474, #004e92);
+    border-radius: 5px;
+}
